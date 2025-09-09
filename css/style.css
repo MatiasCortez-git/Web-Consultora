@@ -1,0 +1,21 @@
+#carouselExample img {
+  object-fit: cover;
+  height: 500px; /* ajustá según tu imagen */
+}
+
+.carousel-caption h5 {
+  font-size: 1.5rem;
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+section {
+  scroll-margin-top: 40px; /* ajusta según el alto de tu navbar */
+}
+
+#carouselExample img {
+  max-height: 400px; /* ajusta según lo que necesites */
+  object-fit: cover;   /* recorta la imagen sin deformarla */
+}
