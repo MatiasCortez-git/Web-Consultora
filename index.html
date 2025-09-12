@@ -191,52 +191,61 @@
     <!-- CONTACTO -->
 <section id="contacto" class="py-5">
   <div class="container">
-    <div class="row g-5">
+    <div class="row align-items-start">
 
-      <!-- SOLICITA NUESTROS SERVICIOS -->
-      <div class="col-md-6">
-        <h2 class="text-center mb-4">Solicita Nuestros Servicios</h2>
-        <p class="text-muted text-center mb-4">
-          Envíenos un mensaje a través del siguiente formulario y nos contactaremos con usted a la brevedad.
-        </p>
-        <form>
-          <div class="mb-3">
-            <label for="nombreApellidoContacto" class="form-label">Nombre y apellido*</label>
-            <input type="text" class="form-control" id="nombreApellidoContacto" placeholder="Juan Pérez" required>
-          </div>            
-          <div class="mb-3">
-            <label for="emailContacto" class="form-label">Email*</label>
-            <input type="email" class="form-control" id="emailContacto" placeholder="name@example.com" required>
-          </div>
-          <div class="mb-3">
-            <label for="consultaContacto" class="form-label">Consulta y/o Comentario *</label>
-            <textarea class="form-control" id="consultaContacto" rows="4" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary w-100">Enviar</button>
-        </form>
+      <!-- FORMULARIO IZQUIERDO -->
+      <div class="col-md-6 pe-md-4">
+        <div class="p-4 shadow-sm rounded" style="background-color: #f8f9fa;">
+          <h2 class="text-center mb-4">Solicita Nuestros Servicios</h2>
+          <p class="text-muted text-center mb-4">
+            Envíenos un mensaje a través del siguiente formulario y nos contactaremos con usted a la brevedad.
+          </p>
+          <form>
+            <div class="mb-3">
+              <label for="nombreApellidoContacto" class="form-label">Nombre y apellido*</label>
+              <input type="text" class="form-control" id="nombreApellidoContacto" placeholder="Juan Pérez" required>
+            </div>            
+            <div class="mb-3">
+              <label for="emailContacto" class="form-label">Email*</label>
+              <input type="email" class="form-control" id="emailContacto" placeholder="name@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="consultaContacto" class="form-label">Consulta y/o Comentario *</label>
+              <textarea class="form-control" id="consultaContacto" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Enviar</button>
+          </form>
+        </div>
       </div>
-     
-      <!-- TRABAJA CON NOSOTROS -->
-      <div class="col-md-6">
-        <h2 class="text-center mb-4">Trabajá con Nosotros</h2>
-        <p class="text-muted text-center mb-4">
-          Sumate a una empresa dinámica y en constante crecimiento.
-        </p>
-        <form>
-          <div class="mb-3">
-            <label for="nombreApellidoTrabajo" class="form-label">Nombre y apellido*</label>
-            <input type="text" class="form-control" id="nombreApellidoTrabajo" placeholder="Juan Pérez" required>
-          </div>            
-          <div class="mb-3">
-            <label for="emailTrabajo" class="form-label">Email*</label>
-            <input type="email" class="form-control" id="emailTrabajo" placeholder="name@example.com" required>
-          </div>
-          <div class="mb-3">
-            <label for="cvTrabajo" class="form-label">Curriculum Vitae</label>
-            <input class="form-control" type="file" id="cvTrabajo" accept=".pdf,.doc,.docx">
-          </div>
-          <button type="submit" class="btn btn-primary w-100">Enviar</button>
-        </form> 
+
+      <!-- LÍNEA VERTICAL DEGRADADA 
+      <div class="d-none d-md-flex align-items-center px-3">
+        <div style="width:3px; height:100%; background: linear-gradient(to bottom, #0d6efd, #6c757d); border-radius:2px;"></div>
+      </div>-->
+
+      <!-- FORMULARIO DERECHO -->
+      <div class="col-md-6 ps-md-4">
+        <div class="p-4 shadow-sm rounded" style="background-color: #f8f9fa;">
+          <h2 class="text-center mb-4">Trabajá con Nosotros</h2>
+          <p class="text-muted text-center mb-4">
+            Sumate a una empresa dinámica y en constante crecimiento.
+          </p>
+          <form>
+            <div class="mb-3">
+              <label for="nombreApellidoTrabajo" class="form-label">Nombre y apellido*</label>
+              <input type="text" class="form-control" id="nombreApellidoTrabajo" placeholder="Juan Pérez" required>
+            </div>            
+            <div class="mb-3">
+              <label for="emailTrabajo" class="form-label">Email*</label>
+              <input type="email" class="form-control" id="emailTrabajo" placeholder="name@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="cvTrabajo" class="form-label">Curriculum Vitae</label>
+              <input class="form-control" type="file" id="cvTrabajo" accept=".pdf,.doc,.docx">
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Enviar</button>
+          </form>
+        </div>
       </div>
 
     </div>
@@ -244,9 +253,12 @@
 </section>
 
 
+
     <!-- FOOTER -->
     <footer class="bg-dark text-white text-center py-4">
-      
+      <div>
+      <small>© 2025 Consultora Misión Integral. Todos los derechos reservados.</small>
+    </div>
     </footer>
 
     <!-- JS -->
